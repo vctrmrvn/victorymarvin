@@ -11,7 +11,7 @@ group :assets do
 end
 
 group :development, :test do
-	gem 'pg'
+	gem 'sqlite3'
 end
 
 group :test, :test do
